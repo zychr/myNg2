@@ -1,0 +1,39 @@
+.wrapper{
+	background-color:#a1abb7;
+	padding: 20px;
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top: 0;
+	left: 0;
+}
+.loginBox{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -150px;
+	padding: 20px 40px;
+	border-radius: 6px;
+	box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+	background-color: #dae1eb;
+}
+form{
+	margin-top: 40px;
+}
+form label{
+	line-height: 40px;
+	padding-right: 0px;
+}
+.sub{
+	text-align: center;
+}
+a.btn{
+	color: #fff;
+	text-decoration: none;
+}
+a.btn:hover,a.btn:active{
+	color: #fff
+}

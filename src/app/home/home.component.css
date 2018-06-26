@@ -1,0 +1,12 @@
+.content{
+	padding-top: 74px;
+	padding-left: 190px;
+	padding-right: 20px;
+	height: 100%;
+	padding-bottom: 20px;
+}
+.conWrap{
+	background: #fff;
+	padding:10px 20px;
+	min-height: 100%;
+}
