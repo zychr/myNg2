@@ -1,0 +1,18 @@
+.datePicker{
+	margin-bottom: 20px;
+}
+#test{
+	border:1px solid #dde6e9;
+	height: 30px;
+	line-height: 30px;
+    background-color: #edf1f2;
+    cursor: pointer;
+}
+.datePicker button{
+	width: 30px;
+	border:1px solid #dde6e9;
+}
+.datePicker .search{
+	width: 50px;
+	margin-left: 20px;
+}

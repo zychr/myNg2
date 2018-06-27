@@ -18,6 +18,7 @@ import { EducationAdvisorComponent } from './pages/education-advisor/education-a
 import { DitchAdvisorComponent } from './pages/ditch_advisor/ditch-advisor.component';
 import { ConsultationComponent } from './pages/consultation/consultation.component';
 import { EntranceComponent } from './pages//entrance/entrance.component';
+import { DatePickerComponent } from './share/date-picker/date-picker.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { EntranceComponent } from './pages//entrance/entrance.component';
     DitchAdvisorComponent,
     ConsultationComponent,
     EntranceComponent,
-    Ng2Echarts
+    Ng2Echarts,
+    DatePickerComponent
   ],
   imports: [
     BrowserModule,
