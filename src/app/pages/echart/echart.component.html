@@ -18,29 +18,19 @@
               </tr>
            </thead>
            <tbody>
-              <tr>
-              	<td>1</td>
-              	<td>iwen</td>
-              	<td>18910056525</td>
-              	<td>北京总部</td>
-              	<td>教育顾问</td>
-              	<td>20</td>
+              <tr *ngFor="let item of ROUTE | paginate: {itemsPerPage: 10,currentPage: p}">
+              	<td>{{item.index}}</td>
+              	<td>{{item.advisor}}</td>
+              	<td>{{item.phone}}</td>
+              	<td>{{item.camp}}</td>
+              	<td>{{item.work}}</td>
+              	<td>{{item.max}}</td>
               	<td>
-                   <input type="checkbox">是
-              	</td>
-              </tr>
-              <tr>
-              	<td>2</td>
-              	<td>iwen</td>
-              	<td>18910056525</td>
-              	<td>北京总部</td>
-              	<td>教育顾问</td>
-              	<td>20</td>
-              	<td>
-                   <input type="checkbox">是
+                   <input type="checkbox"> 是
               	</td>
               </tr>
            </tbody>
        </table>
+      <pagination-controls previousLabel="上一页" nextLabel="下一页"  (pageChange)="p = $event"></pagination-controls>
    </div>
 </div>

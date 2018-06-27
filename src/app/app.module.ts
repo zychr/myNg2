@@ -19,6 +19,7 @@ import { DitchAdvisorComponent } from './pages/ditch_advisor/ditch-advisor.compo
 import { ConsultationComponent } from './pages/consultation/consultation.component';
 import { EntranceComponent } from './pages//entrance/entrance.component';
 import { DatePickerComponent } from './share/date-picker/date-picker.component';
+import {Ng2PaginationModule} from "ng2-pagination";
 
 @NgModule({
   declarations: [
@@ -37,11 +38,12 @@ import { DatePickerComponent } from './share/date-picker/date-picker.component';
     ConsultationComponent,
     EntranceComponent,
     Ng2Echarts,
-    DatePickerComponent
+    DatePickerComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule,
+    Ng2PaginationModule,
     RouterModule.forRoot(appRouter)
   ],
   providers: [],
